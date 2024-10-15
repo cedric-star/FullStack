@@ -1,0 +1,22 @@
+
+{
+  "users": [
+    {
+      "name": "cedric",
+      "email": "test@gmail.com",
+      "pass": "test",
+      "bday": "2005-06-13",
+      "pnum": 123
+    },
+    {
+      "name": "user1",
+      "email": "user1@gmail.com",
+      "pass": "user1",
+      "bday": "2002-02-02",
+      "pnum": 2
+    }
+
+  ]
+
+
+}

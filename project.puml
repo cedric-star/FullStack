@@ -1,0 +1,26 @@
+@startuml
+
+class SaveData {
+-data
++save()
+}
+
+class compareUsers {
++compareUsers(data)
+
+}
+
+class userJson {
+-name
++setName()
++getName()
+}
+
+SaveData --> compareUsers : übermittelt data >
+compareUsers .--> userJson : input user fro SaveData
+compareUsers .--> userJson : existing user from .json
+
+note top of SaveData : gets Data from MessageController
+note top of userJson : represents one User
+
+@enduml
