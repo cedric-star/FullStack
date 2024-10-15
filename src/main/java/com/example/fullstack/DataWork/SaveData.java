@@ -11,5 +11,5 @@ public class SaveData {
     public String getData() {
         return data;
     }
-    //kommentar
+    //kommentar 2
 }
