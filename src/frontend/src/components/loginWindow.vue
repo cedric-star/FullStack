@@ -1,6 +1,5 @@
 vue
 <script>
-  import Liste from './Liste.vue'
   export default {
     name: "LoginWindow",
     data() {
@@ -94,12 +93,12 @@ vue
             .then((data) => {
               console.log(data);
             })
-            .then((data) => {
+            /*.then((data) => {
               if (data.success) {
                 console.log('success... opening list for logged in user');
-                this.
+                this = Liste;
               }
-            })
+            })*/
             .catch(error => {
             console.error("Es gab einen Fehler:", error);
             });

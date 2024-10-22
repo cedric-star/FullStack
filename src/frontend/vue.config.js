@@ -7,8 +7,8 @@ module.exports = defineConfig({
     port: 8081,
     proxy: {
       '/app': {
-        //target: 'http://localhost:8080',
-        target: 'http://192.168.178.79:8080',
+        target: 'http://localhost:8080',
+        //target: 'http://192.168.178.79:8080',
         ws: true,
         changeOrigin: true
       }

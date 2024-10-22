@@ -6,6 +6,24 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+      <style>
+          html, body {
+              margin: 0;
+              padding: 0;
+              overflow: hidden; /* Verhindert Scrollbalken auf der Seite */
+              height: 100%;
+              width: 100%;
+
+          }
+          canvas {
+              display: block; /* Entfernt unnötigen zusätzlichen Platz unter dem Canvas */
+              width: 100vw;   /* 100% der Breite des Viewports */
+              height: 100vh;  /* 100% der Höhe des Viewports */
+              margin: 0;      /* Keine äußeren Abstände */
+              padding: 0;     /* Keine inneren Abstände */
+              box-sizing: border-box; /* Enthält Rand und Auffüllung in den Berechnungen der Breite/Höhe */
+          }
+      </style>
   </head>
   <body>
     <noscript>
