@@ -5,7 +5,8 @@ public class SaveData {
 
     public void save(String data) {
         this.data = data;
-        new compareUsers(data);
+        System.out.println(data);
+        //new compareUsers(data);
     }
 
     public String getData() {
